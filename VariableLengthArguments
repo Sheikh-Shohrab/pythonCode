@@ -1,0 +1,10 @@
+def variableLenthArgu(arg, *var):
+    print(arg)
+    print(id(arg))
+    print(id(var))
+    for i in var:
+        print(i)
+    return
+
+variableLenthArgu(10)
+variableLenthArgu(20,30,40,50)
