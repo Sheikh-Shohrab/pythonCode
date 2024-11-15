@@ -1,7 +1,7 @@
-def add(x,y):
+def addFunction(x,y):
    z=x+y
    return z
 a=10
 b=20
-result = add(a,b)
+result = addFunction(a,b)
 print ("a = {} b = {} a+b = {}".format(a, b, result))
