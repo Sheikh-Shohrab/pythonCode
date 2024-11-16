@@ -1,5 +1,6 @@
-def myFunction(x,/, z, *, y):
-    sum = x + y+ z
+def myFunction(x, z,/,a , *, y):
+    print(x,y,z,a)
+    sum = x + y+ z+a
     return sum
 
-print(myFunction(10, 10, y = 10))
+print(myFunction(50, 40, 70, y = 10))
