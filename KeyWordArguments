@@ -1,8 +1,9 @@
 # Function definition is here
-def printme( myName, formatString ):
+def printme(myName, formatString):
    "This prints a passed string into this function"
    print (formatString, myName)
    return;
 
 # Now you can call printme function
-printme(formatString="My string", myName = "Shohrab")
+myName = "Shohrab"
+printme(myName, formatString="My string")
