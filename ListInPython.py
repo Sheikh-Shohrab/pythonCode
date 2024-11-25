@@ -3,3 +3,7 @@ print(myList)
 
 for i in myList:
     print(i,end=" ")
+print("\n")
+
+for i in range(len(myList)):
+    print("list[{}] = {}".format( i, myList[i]))
